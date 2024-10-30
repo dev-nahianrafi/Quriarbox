@@ -1,12 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* src/index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background: #fff7e7;
+}
 
-
-body{
-  background: #FFF7E7;
+@layer components {
+  .testimonial-heading {
+    @apply text-[31.25px] font-bold text-primary-orange font-Oxanium;
+  }
+  .service-card-heading {
+    @apply text-[25px] font-bold leading-[30px] font-Raleway text-primary-orange;
+  }
+  .testimonial-sub-heading {
+    @apply text-[39px] font-extrabold text-primary-black font-Raleway leading-[42.9px];
+  }
+  .service-card {
+    @apply w-[872px]  bg-[#fff] rounded-[16px] shadow-custom-light py-[39px] pb-[34px] pl-[38px] pr-[31px] flex flex-col gap-y-[29.53px];
+  }
+  .testimonial-quote {
+    @apply h-[133px] w-[133px];
+  }
+  .service-para {
+    @apply w-[799.388px] text-base font-normal leading-[23.2px] font-Raleway text-primary-gray;
+  }
+  .service-star {
+    @apply w-[19px] h-[18px];
+  }
+  .service-client-name {
+    @apply text-base font-bold leading-[19.2px] font-Raleway text-special-black;
+  }
+  .service-client-designation {
+    @apply text-base font-normal leading-[19.2px] font-Raleway text-primary-gray;
+  }
+  .service-client-bg-img{
+    @apply w-[54px] h-[54px] rounded-full bg-red-300
+  }
 }
