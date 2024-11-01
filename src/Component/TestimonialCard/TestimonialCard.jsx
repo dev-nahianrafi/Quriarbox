@@ -1,4 +1,3 @@
-import React from "react";
 import quote from "../../assets/quote.svg";
 import star from "../../assets/star.svg";
 import women from "../../assets/women.jpeg";

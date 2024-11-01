@@ -1,4 +1,3 @@
-import React from "react";
 import TestimonialCard from "../../Component/TestimonialCard/TestimonialCard";
 
 const Testimonial = () => {
