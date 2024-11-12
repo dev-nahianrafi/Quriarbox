@@ -26,6 +26,7 @@ export default {
         xlg: "1280px", // Custom extra-large screen
         xl: "1440px", // Extra-large screens
       },
+      
     },
     container: {
       center: true,

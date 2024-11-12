@@ -10,23 +10,20 @@ import Rootlayout from "./layout/RootLayout";
 
 
 function App() {
-
   const router = createBrowserRouter(
     createRoutesFromElements(
-     <>
-        <Route element={<Rootlayout/>}>
-          <Route path="/" element={<Home/>}/>
+      <>
+        <Route element={<Rootlayout />}>
+          <Route path="/" element={<Home />} />
         </Route>
-     </>
+      </>
     )
   );
   return (
     <>
-        <RouterProvider
-        router={router}
-        />   
+      <RouterProvider router={router} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
